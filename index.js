@@ -16,7 +16,7 @@ const MONOGO_URL = process.env.MONOG_URI;
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors();
+app.use(cors());
 app.use(
   fileUpload({
     useTempFiles: true,
